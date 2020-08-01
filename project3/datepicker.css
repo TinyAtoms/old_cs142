@@ -1,0 +1,30 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  align-items: center;
+  background-color: #707070;
+}
+
+tbody tr :nth-child(even) {
+  background-color: gray;
+}
+
+tbody tr :nth-child(odd) {
+  background-color: #505050;
+}
+
+div.controlbox {
+  display: flex;
+  flex-flow: row;
+  align-self: center;
+}
+
+.controlbox > .next,
+.prev {
+  padding: 0px 20px 0px 20px;
+  background-color: #303030;
+  color: #fff;
+}

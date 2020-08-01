@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+  /* width: 100vh; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-container div {
+  height: 150px;
+  width: 100px;
+  min-width: 100px;
+  border-left: 10px dotted #d0d0ff;
+  margin: 10px;
+  background: #eeeff2;
+  color: #000000;
+}
+.flex-container div:hover {
+    background: yellow;
+    color: goldenrod;
+
+}
+
+.flex-container div:nth-last-child(1) {
+    align-self: end;
+    margin: 0px 0px 0px auto;
+}
+div p {
+  font-size: 40px;
+  font: Tahoma;
+  margin: 10px;
+
+
+}
+
